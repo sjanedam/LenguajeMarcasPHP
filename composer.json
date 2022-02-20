@@ -1,12 +1,5 @@
 {
-"require": {
-
-"LenguajeMarcasPHP/LenguajeMarcasPHP"
-"ext-soap": "*"
-}
-}
-{
-"require": {
-"ext-soap": "*"
-}
+  "require":{
+    "ext-soap":"*"
+  }
 }
