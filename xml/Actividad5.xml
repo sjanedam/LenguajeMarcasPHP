@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libro xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="Actividad5.xsd">
+  <titulo>El señor de los anillos</titulo>
+  <autor>J. R. Tolkien</autor>
+  <genero>Drama</genero>
+</libro>

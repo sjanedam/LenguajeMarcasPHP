@@ -1,0 +1,10 @@
+<!ELEMENT listafacturas (factura+)>
+<!ELEMENT factura (emisor, pagador,importe)>
+<!ELEMENT emisor  (nombre, volumenventas?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT volumenventas (#PCDATA)>
+<!ELEMENT pagador (nombre, volumenventas?)>
+<!ELEMENT importe (#PCDATA)>
+<!ATTLIST factura fecha CDATA #IMPLIED>
+<!ATTLIST emisor cif CDATA #REQUIRED>
+<!ATTLIST pagador cif CDATA #REQUIRED>

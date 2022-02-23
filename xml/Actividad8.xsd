@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <!-- ELEMENTOS -->
+  <xs:element name="serie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="titulo" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="fechaestreno" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="num_temporadas">
+          <xs:simpleType>
+            <xs:restriction base="xs:integer">
+              <xs:minInclusive value="1"/>
+              <xs:maxInclusive value="50"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="genero" minOccurs="1" maxOccurs="1">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="Comedia"/>
+              <xs:enumeration value="Drama"/>
+              <xs:enumeration value="Ciencia ficcion"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

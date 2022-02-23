@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <!-- RESTRICCIÓN DE ATRIBUTOS -->
+  <xs:simpleType name="curso">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Primero"/>
+      <xs:enumeration value="Segundo"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- ELEMENTOS -->
+  <xs:element name="expedientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="expediente" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulacion" type="xs:string" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="estudiante" type="xs:string" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="modulos" minOccurs="1" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="modulo" minOccurs="1" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="nombre" type="xs:string" />
+                        <xs:attribute name="aprobado" type="xs:boolean" />
+                        <xs:attribute name="curso" type="curso"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<incidencia xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="Actividad7.xsd">
+  <cliente nombre="Laura"></cliente>
+  <notificacion tipo="tecnica"></notificacion>
+  <fecha>21/02/2022</fecha>
+  <hora>11:34</hora>
+</incidencia>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+  <cliente>
+    <nombre>Laura</nombre>
+    <apellido>Manuel</apellido>
+    <fecha_inicio>20/02/2022</fecha_inicio>
+    <fecha_fin>28/02/2022</fecha_fin>
+    <origen>Madrid</origen>
+    <destinos>
+      <destino>
+        <ciudad>Barcelona</ciudad>
+        <hotel>Nombre hotel</hotel>
+        <num_noches>7</num_noches>
+      </destino>
+      <destino>
+        <ciudad>Zaragoza</ciudad>
+        <hotel>Nombre hotel</hotel>
+        <num_noches>7</num_noches>
+      </destino>
+    </destinos>
+    <precio>210€</precio>
+  </cliente>
+  <cliente>
+    <nombre>Manuel</nombre>
+    <apellido>Rios</apellido>
+    <fecha_inicio>21/02/2022</fecha_inicio>
+    <fecha_fin>24/02/2022</fecha_fin>
+    <origen>Lugo</origen>
+    <destinos>
+      <destino>
+        <ciudad>Paris</ciudad>
+        <hotel>Nombre hotel</hotel>
+        <num_noches>1</num_noches>
+      </destino>
+      <destino>
+        <ciudad>Lyon</ciudad>
+        <hotel>Nombre hotel</hotel>
+        <num_noches>1</num_noches>
+      </destino>
+    </destinos>
+    <precio>110€</precio>
+  </cliente>
+  <cliente>
+    <nombre>Gia</nombre>
+    <apellido>Howard</apellido>
+    <fecha_inicio>23/02/2022</fecha_inicio>
+    <fecha_fin>29/02/2022</fecha_fin>
+    <origen>Murcia</origen>
+    <destinos>
+      <destino>
+        <ciudad>Roma</ciudad>
+        <hotel>Nombre hotel</hotel>
+        <num_noches>2</num_noches>
+      </destino>
+      <destino>
+        <ciudad>Venecia</ciudad>
+        <hotel>Nombre hotel</hotel>
+        <num_noches>3</num_noches>
+      </destino>
+    </destinos>
+    <precio>420€</precio>
+  </cliente>
+</clientes>

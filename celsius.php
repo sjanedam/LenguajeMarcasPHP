@@ -43,13 +43,13 @@ try {
   <div class="container-fluid">
     <ul class="navbar-nav me-auto mb-2 mb-md-0">
       <li class="nav-item">
-        <a href="xml.html" class="nav-link disabled">Otras actividades de XML</a>
+        <a href="index.html" class="nav-link active">índice</a>
       </li>
       <li class="nav-item">
-        <a href="index.html" class="nav-link active">Actividad 9</a>
+        <a href="celsius.html" class="nav-link active">Actividad 9</a>
       </li>
       <li class="nav-item">
-        <a href="parte3.html" class="nav-link disabled">Actividad 10</a>
+        <a href="imc.html" class="nav-link disabled">Actividad 10</a>
       </li>
     </ul>
   </div>

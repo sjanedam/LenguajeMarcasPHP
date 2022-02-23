@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<libro xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="actividad-5.xsd">
-    <titulo>Los juegos del hambre</titulo>
-    <autor>Suzanne Collins</autor>
-    <genero>Distopia, acción, drama</genero>
-</libro>

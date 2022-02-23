@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<serie xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="Actividad8.xsd">
+  <titulo>Stranger Things</titulo>
+  <fechaestreno>15 de Julio de 2016</fechaestreno>
+  <num_temporadas>4</num_temporadas>
+  <genero>Ciencia ficcion</genero>
+</serie>

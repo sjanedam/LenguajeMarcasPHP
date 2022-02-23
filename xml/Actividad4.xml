@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listafacturas  SYSTEM "Actividad4.dtd"> 
+
+<listafacturas>
+  <factura fecha="22/02/2022">
+    <emisor cif="A-48265169">
+      <nombre>BBVA</nombre>
+      <volumenventas/>
+    </emisor>
+    <pagador cif="A-48265169">
+      <nombre>BBVA</nombre>
+    </pagador>
+    <importe>50€</importe>
+  </factura>
+</listafacturas>

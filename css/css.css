@@ -10,7 +10,7 @@ body {
 
 .navbar {
   background-color: #e6f0e8 !important;
-  box-shadow: #7ab387 2px 3px;
+  box-shadow: #7ab387 2px 3px !important;
 }
 
 h1, h2, h3, h4, h5, h6, label {
@@ -36,11 +36,11 @@ h1, h2, h3, h4, h5, h6, label {
   font-family: 'Roboto Mono', monospace !important;
 }
 
-#entrada {
+#entrada, #nombre, #peso, #altura {
   width: 20%;
 }
 
-#entrada:focus {
+#entrada:focus, #nombre:focus, #peso:focus, #altura:focus {
   border-color: #E4E6C3 !important;
   box-shadow: 0 1px 1px #E4E6C3 inset, 0 0 8px #E4E6C3 !important;
   outline: 0 none !important;

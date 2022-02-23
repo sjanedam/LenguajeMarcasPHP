@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+* {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+  background-color: #F9F8F6;
+}
+
+h2, h4, h5, .color {
+  color: #47562d !important;
+  text-align: justify;
+}
+
+.link, .list-group-item {
+  color: #7ab387;
+  text-decoration: none !important;
+}
+
+.link:visited, .link:hover, .link:focus {
+  color: #47562d !important;
+  text-decoration: none!important;
+}
+
+.active {
+  color: #2c3e4e;
+}
+
+.disabled {
+  color: #4c8294 !important;
+}
+
+.card {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#fondo {
+  background-color: #e6f0e8 !important;
+  padding: 50px;
+  border-radius: 25px;
+  border: 1px solid #7ab387;
+}
+
+#nav {
+  background-color: #e6f0e8 !important;
+  border-radius: 15px !important;
+  padding: 30px !important;
+  border: 1px solid #7ab387;
+  margin-bottom: 30px !important;
+}
+
+#boton {
+  background-color: #7ab387 !important;
+  border-color: #7ab387 !important;
+}
+
+#boton:hover {
+  background-color: #cfe1b1 !important;
+  border-color: #cfe1b1 !important;
+  color: black;
+}

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <!-- RESTRICCIÓN DE ATRIBUTOS -->
+  <xs:simpleType name="tipo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="tecnica"/>
+      <xs:enumeration value="de facturación"/>
+      <xs:enumeration value="de servicio"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!-- ELEMENTOS -->
+  <xs:element name="incidencia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="cliente" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="nombre" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="notificacion" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:attribute name="tipo" type="tipo"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fecha" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="hora" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
